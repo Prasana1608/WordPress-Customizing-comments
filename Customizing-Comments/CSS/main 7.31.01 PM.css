@@ -1,0 +1,30 @@
+.comment-form-comment:first-child{
+    display: none;
+}
+.comment-form-email, .comment-form-email input, .comment-form-author, .comment-form-author input{
+    width: 100%;
+}
+.comment-form-author{
+    margin-right: 15px !important;
+}
+ol.comment-list{
+    margin-left: 0;
+    padding-left: 0;
+}
+.single-comment{
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.single-comment figure.author-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.single-comment figure.author-img img{
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+h2.comments-title{
+    padding-top: 2rem;
+}
